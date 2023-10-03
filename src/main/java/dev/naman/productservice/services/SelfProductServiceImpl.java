@@ -16,4 +16,19 @@ public class SelfProductServiceImpl implements ProductService {
     public GenericProductDto createProduct(GenericProductDto product) {
         return null;
     }
+
+    @Override
+    public GenericProductDto[] getProducts() {
+        return null;
+    }
+
+    @Override
+    public GenericProductDto updateProductById(Long id, GenericProductDto product) {
+        return null;
+    }
+
+    @Override
+    public GenericProductDto deleteProductById(Long id) {
+        return null;
+    }
 }
